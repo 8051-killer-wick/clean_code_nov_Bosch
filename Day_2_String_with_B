@@ -1,0 +1,16 @@
+Java
+
+public class Main {
+    public static void displayStringsStartingWithB(String[] arr) {
+        for (String str : arr) {
+            if (str.startsWith("B")) {
+                System.out.println(str);
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        String[] arr = {"Apple", "Banana", "Berry", "Cherry", "Blueberry"};
+        displayStringsStartingWithB(arr);
+    }
+}

@@ -1,16 +1,24 @@
 Java
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
-    public static void displayStringsStartingWithB(String[] arr) {
-        for (String str : arr) {
-            if (str.startsWith("B")) {
-                System.out.println(str);
+    public static void displayStringsStartingWithCharacter(String[] arr, String ch) {
+        List<String> display = new ArrayList<>();
+        for (String str : arr) 
+        {
+            if (str.startsWith(ch)) 
+            {
+                display.add(str);
             }
         }
+        System.out.println(display);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         String[] arr = {"Apple", "Banana", "Berry", "Cherry", "Blueberry"};
-        displayStringsStartingWithB(arr);
+        displayStringsStartingWithCharacter(arr,"B");
     }
 }

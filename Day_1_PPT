@@ -1,0 +1,47 @@
+This presentation will explore the commonalities and differences between these influential programming languages, examining their core concepts and programming models. We'll dive into the building blocks of each language, tracing the evolution of concepts like data types, control flow, and object-oriented programming.
+
+by Nagarjun BM
+
+
+1. Primitive Data Types
+C, C++, and Java share fundamental data types like integers, floating-point numbers, characters, and booleans. These form the foundation for representing different kinds of information.
+
+2. Variables
+Variables are used to store and manipulate data within a program. These languages utilize variables to represent data values dynamically, enabling flexible data management.
+
+3. Data Structures
+These languages also support more complex data structures like arrays, lists, and maps, allowing for efficient storage and organization of large datasets.
+
+C Programming Language
+
+Paradigm: Procedural Programming
+Concepts:
+Procedural Programming: Focuses on procedures or routines (functions) to operate on data.
+Low-level Memory Access: Allows direct manipulation of memory using pointers.
+Structured Programming: Supports structured programming constructs like loops, conditionals, and functions.
+Portability: Code can be compiled and run on different platforms with minimal changes.
+Efficiency: Provides high performance and efficient use of resources.
+
+
+C++ Programming Language
+
+Paradigm: Multi-paradigm (Procedural, Object-Oriented, and Generic Programming)
+Concepts:
+Object-Oriented Programming (OOP): Supports classes and objects, encapsulation, inheritance, and polymorphism.
+Generic Programming: Uses templates to write generic and reusable code.
+Standard Template Library (STL): Provides a collection of template classes and functions for data structures and algorithms.
+Low-level Memory Manipulation: Similar to C, allows direct memory access and manipulation.
+RAII (Resource Acquisition Is Initialization): Manages resource allocation and deallocation using constructors and destructors.
+
+
+Java Programming Language
+
+Paradigm: Object-Oriented Programming
+Concepts:
+Object-Oriented Programming (OOP): Emphasizes objects and classes, encapsulation, inheritance, and polymorphism.
+Platform Independence: Uses the Java Virtual Machine (JVM) to run code on any platform without modification.
+Automatic Memory Management: Includes garbage collection to manage memory allocation and deallocation.
+Concurrency: Provides built-in support for multi-threading and concurrent programming.
+Robustness and Security: Includes features like exception handling and a security manager to create secure and reliable applications.
+
+
